@@ -1,0 +1,11 @@
+bin/
+obj/
+.vs/
+.idea/
+*.user
+src/IntelliBroadcast/appsettings.json
+appsettings.Development.json
+App_Data/
+TestResults/
+*.PublishSettings
+.DS_Store

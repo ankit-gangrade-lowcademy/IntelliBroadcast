@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="src/IntelliBroadcast/IntelliBroadcast.csproj" />
+  <Project Path="tests/IntelliBroadcast.Tests/IntelliBroadcast.Tests.csproj" />
+</Solution>
