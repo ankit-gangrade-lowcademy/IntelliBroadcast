@@ -1,0 +1,14 @@
+{
+  "ProjectHash": "4f0d7c72-9a31-4c68-b526-2e8f5a1d93b7",
+  "BaseURL": "https://YOUR_APP_SERVICE.azurewebsites.net",
+  "ConnectionStrings": {
+    "DefaultConnection": "Set ConnectionStrings__DefaultConnection in Azure App Service; do not store credentials here."
+  },
+  "Logging": {
+    "LogLevel": {
+      "Default": "Information",
+      "Microsoft.AspNetCore": "Warning"
+    }
+  },
+  "AllowedHosts": "*"
+}

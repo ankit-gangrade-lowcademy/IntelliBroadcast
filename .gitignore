@@ -1,11 +1,24 @@
-bin/
-obj/
+# Build output
+**/bin/
+**/obj/
+publish/
+
+# IDE and OS files
 .vs/
+.vscode/
 .idea/
 *.user
-src/IntelliBroadcast/appsettings.json
-appsettings.Development.json
-App_Data/
-TestResults/
-*.PublishSettings
+*.suo
 .DS_Store
+
+# Deployment credentials and local secrets
+*.PublishSettings
+*.publishsettings
+*.pubxml.user
+appsettings.Local.json
+appsettings.*.Local.json
+
+# Test output
+TestResults/
+*.trx
+coverage*.xml

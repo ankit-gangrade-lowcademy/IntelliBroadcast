@@ -1,0 +1,7 @@
+@model IntelliBroadcast.Web.ViewModels.LoginViewModel
+@{ ViewData["Title"] = "Login"; }
+<div class="login-wrap"><section class="login-card" aria-labelledby="login-heading"><div class="login-brand"><span class="brand-mark brand-mark-lg" aria-hidden="true">IB</span></div><h1 id="login-heading">Welcome back</h1><p class="text-secondary">Sign in to view your IntelliBroadcast announcements.</p>
+<form asp-action="Login" method="post" class="mt-4"><input asp-for="ReturnUrl" type="hidden" /><div asp-validation-summary="ModelOnly" class="alert alert-danger" role="alert"></div>
+<div class="mb-3"><label asp-for="Email" class="form-label"></label><input asp-for="Email" class="form-control form-control-lg" autocomplete="username" autofocus /></div>
+<div class="mb-4"><label asp-for="Password" class="form-label"></label><input asp-for="Password" class="form-control form-control-lg" autocomplete="current-password" /></div>
+<button class="btn btn-brand btn-lg w-100" type="submit">Sign in</button></form></section></div>
